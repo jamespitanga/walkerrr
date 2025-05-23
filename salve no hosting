@@ -1,0 +1,29 @@
+create table aluno (id int not null auto_increment primary key, nome varchar (100), cgm varchar (20), telefone varchar(25), serie varchar(20));
+describe aluno;
+
+insert into aluno(nome,cgm,telefone,serie) values ('pitanga james', '0000001', '41999327652', '3 ads');
+insert into aluno(nome,cgm,telefone,serie) values ('santista', '0000002', '21957876767', '3 ads');
+insert into aluno(nome,cgm,telefone,serie) values ('calebe', '0000003', '43998684523', '3 b');
+insert into aluno(nome,cgm,telefone,serie) values ('thebas', '0000004', '41997809835', '3 ads');
+insert into aluno(nome,cgm,telefone,serie) values ('tio', '0000005', '41998119302', '3 ads');
+insert into aluno(nome,cgm,telefone,serie) values ('vo', '0000006', '419746857676', '3 c');
+insert into aluno(nome,cgm,telefone,serie) values ('carinha', '0000007', '41999327652', '3 b');
+insert into aluno(nome,cgm,telefone,serie) values ('vi', '0000008', '45974979645', '3 ads');
+insert into aluno(nome,cgm,telefone,serie) values ('operadora claro ', '0000009', '41998119407', '3 a');
+insert into aluno(nome,cgm,telefone,serie) values ('santista sala', '0000010', '91953606767', '3 d');
+insert into aluno(nome,cgm,telefone,serie) values ('pitanga andre', '0000100', '77863606767', '3 g');
+insert into aluno(nome,cgm,telefone,serie) values ('thebas pitanga', '0004010', '4199999999', '3 ads');
+
+select * from aluno;
+
+select nome,telefone from aluno where nome like 'p%';
+
+update aluno set nome = 'vitoria' where id = 0000008;
+
+
+
+
+
+
+
+salvar no hosting qundo tentei deu errado o meu e o do thebas 
