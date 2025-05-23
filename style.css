@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+
+body{
+    background-color:  rgb(167, 196, 135);
+}
+
+h1{
+    color: rgb(110, 161, 202);
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+ul{
+    list-style-type: none;
+    background-color:  antiquewhite;
+    border-radius: 10mm;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+    
+}
+
+li a{
+    display: block;
+    color:   rgb(64, 137, 221);
+    text-emphasis: none;
+    padding: 14px 16px;
+    font-family: "Molle", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+
+li a:hover{
+    color: black;
+}
